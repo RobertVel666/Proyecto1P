@@ -1,24 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|ZCOOL+XiaoWei');
+
 html{
     background: rebeccapurple;
-    color: antiquewhite
+    color: antiquewhite;
+    font-family: 'ZCOOL XiaoWei', serif;
+
 }
 .line{
     background: lime;
 }
 
-ul {
+.ful {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
-    float: left;
+.fil {
+    float: right;
 
 }
 
-li a {
+.fil .fa {
     display: block;
     color: white;
     text-align: center;
@@ -26,14 +30,15 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.fil .fa:hover {
     background-color: #111111;
     color: lime;
 }
 
-.namae{
+#namae{
     font-size: 20px;
     color: black;
+    float: left;
 }
 
 .desc{
@@ -44,6 +49,7 @@ li a:hover {
     border: 1px;
     padding: 10px;
     position: relative;
+    box-shadow: 4px 4px 0px darkslateblue;
 }
 
 .studies{
@@ -54,6 +60,8 @@ li a:hover {
     border: 1px;
     padding: 10px;
     position: relative;
+    box-shadow: 4px 4px 0px darkslateblue;
+    text-align: justify;
 } 
 .schools{
     width: 85%;
@@ -63,6 +71,7 @@ li a:hover {
     border: 1px;
     padding: 10px;
     position: relative;
+    box-shadow: 4px 5px 0px darkslateblue;
 } 
 .hobbies{
     width: 85%;
@@ -72,6 +81,7 @@ li a:hover {
     border: 1px;
     padding: 10px;
     position: relative;
+    box-shadow: 4px 4px 0px darkslateblue;
 } 
 .interests{
     width: 85%;
@@ -81,6 +91,9 @@ li a:hover {
     border: 1px;
     padding: 10px;
     position: relative;
+    box-shadow: 4px 4px 0px darkslateblue;
+    color: #111111;
+    text-align: justify;
 }
 
 footer{
@@ -91,8 +104,21 @@ footer{
 }
 
 .dads{
-    background: black;
+    border: 2px solid hotpink;
     width: 30%;
     margin: 2px;
     padding: 2px;
+    float: right;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.form{
+    width: 100px;
+    height: 25px;
+    border: 2px solid orangered;
+}
+
+img{
+    display: inline-block;
 }
